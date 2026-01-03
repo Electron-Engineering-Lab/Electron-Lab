@@ -43,7 +43,7 @@ void loop() {
     // Error
     float error = setpoint - rpm;
 
-    // Integral term (no clamp → possible windup)
+    // Integral term 
     Iterm += Ki * error * (dt / 1000.0);  // scale by seconds
 
     // PI control with base feed
