@@ -49,9 +49,9 @@ void loop() {
     Serial.print(" | Error: ");
     Serial.print(error);
     Serial.print(" | PWM: ");
-    Serial.print(pwm);
-    Serial.print(" | I: ");
-    Serial.println(integral);
+    Serial.println(pwm);
+;
   }
 }
+
 
